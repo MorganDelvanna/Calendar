@@ -1,9 +1,9 @@
 <?php
 
-    $servername = "localhost";
-    $username = "pfgaEvent";
-    $password = "C4lendarTh!ngs";
-    $database = "pfga_forum";
+    $servername = "";
+    $username = "";
+    $password = "";
+    $database = "";
 
     $mysqli = mysqli_connect($servername, $username, $password, $database);
     if ($mysqli->connect_errno) {
